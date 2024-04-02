@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list </title>
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <script src="https://kit.fontawesome.com/2576b9038f.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <h1 class="title">
+            Tareas pendientes
+        </h1>
+        <hr>
+
+        <!-- div donde del todo list  -->
+        <div class="todo-list">
+            <div class="list-head">
+                <input type="text" id="entered-list">
+                <button id="add-list"> Añadir tarea </button>
+
+            </div>
+
+        </div>
+    </div>
+    <!-- caja de tareas realizada  -->
+
+    <div class="container">
+        <div>
+            <h3> Tareas realizadas: <span id="cantidad"> 0</span></h3>
+            <div class="tareasrealizadas">
+
+                <h3> Total: <span id="total"> 0</span></h3>
+                <ul id="totaldetareas"></ul>
+            </div>
+        </div>
+
+        <div class="contenedorresultados">
+            <div class="contenedortitles">
+                <h3 class="id"> ID</h3>
+                <h3 class="tarea"> Tarea</h3>
+
+            </div>
+
+            <ul id="listado"></ul>
+        </div>
+
+
+    </div>
+
+
+    <script src="./assest/js/index.js"></script>
+</body>
+
+</html>

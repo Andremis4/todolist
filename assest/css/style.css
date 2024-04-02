@@ -1,0 +1,118 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ebecec;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 10px;
+    justify-content: space-between;
+    grid-column-gap: 20px;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 2px;
+    margin-top: 10px;
+
+
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+
+}
+
+.tareasrealizadas {
+    display: inline-block;
+    margin: 50px;
+    font-family: "Lato", sans-serif;
+}
+
+
+.id {
+
+    display: flex;
+    justify-self: right;
+    align-items: end;
+    width: 40%;
+}
+
+#add-list {
+    background-color: #197641;
+    color: white;
+    height: 32px;
+    border: none;
+    border-radius: 3px;
+    padding: 0px 8px;
+}
+
+#entered-list{
+height: 32px;
+border: none;
+width: 300px;
+margin-right: 10px;
+border-radius: 3px;
+}
+
+h3{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.elementito {
+    font-family: "Lato", sans-serif;
+    margin-top: 5px;
+    display: flex;
+     flex-direction: row;
+     width: 100%;
+     justify-content: space-between;
+ 
+
+
+}
+
+.contenedortitles{
+    display: flex;
+    flex-direction: row;
+    }
+
+    .contenedorresultados{
+        display: flex;
+    flex-direction: column;
+    }
+
+    #listado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+            }
+    li{
+list-style: none;
+    }
+
+    hr{
+        height: 2px;
+        width: 100%;
+    }
+
+    
